@@ -3,9 +3,14 @@ This addon is made to control the hyperion ambilight over Network (JSON-RPC) wit
 Installation:
 - copy the folder "script.hyperioncontrol" to "/storage/.kodi/addons/" on Raspberry Pi
 	or create a zip file and install Addon from zip file
+SSH: (copy folder script.hyperioncontrol to downloads)
+mkdir .kodi/addons/script.hyperioncontrol
+cp downloads/script.hyperioncontrol/*.* .kodi/addons/
 
 - copy the folder "scripts" to "userdata/hyperion/scripts/" folder
 	it contains scripts for hyperion
+
+- copy autostart.sh to configfiles
 
 - activate the json server in Hyperion by uncommenting or adding this lines:
 	"jsonServer" : 
